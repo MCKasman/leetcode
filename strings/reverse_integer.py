@@ -30,7 +30,7 @@ class Solution(object):
         if(is_negative):
             reverse*=-1
 
-        if reverse > 2**31 or -(2**31) >= reverse:
+        if reverse >= 2**31 or -(2**31) >= reverse:
             return 0
 
         return reverse

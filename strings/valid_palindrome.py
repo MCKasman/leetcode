@@ -4,8 +4,8 @@ class Solution(object):
         :type s: str
         :rtype: bool
 
-        Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring           cases.
-        
+        Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+
         Algorithm:
 
         1. Remove spaces
